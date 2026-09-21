@@ -13,6 +13,27 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.3",
+      "data": "2026-09-21",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "\"Procurar agora\" passou a pedir confirmação antes de rodar. Se houver versão nova, ele baixa e troca, e a troca derruba todo mundo por cerca de um minuto - quem clica precisa saber disso antes, e não descobrir quando a tela parar de responder. Se já estiver na versão mais nova, nada acontece e ninguém é desconectado.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "A tela passou a ocupar a largura inteira da janela, em vez de parar no meio e deixar metade da tela vazia.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "A SEGUNDA atualização de um servidor falhava sempre. A primeira guardava a versão antiga numa pasta de descarte que ninguém apagava, e a seguinte tropeçava nela. O sistema voltava sozinho e continuava no ar, mas nunca chegava na versão nova. Agora a pasta de descarte é apagada, e com o sistema ainda no ar - sem aumentar o tempo de parada.",
+          "onde": "Servidor (não aparece em tela)"
+        }
+      ]
+    },
+    {
       "numero": "1.1.2",
       "data": "2026-09-21",
       "mudancas": [
