@@ -13,6 +13,27 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.2",
+      "data": "2026-09-21",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "A tela passou a dizer quando foi a última vez que o sistema procurou versão nova e o que ele achou - por exemplo \"última conferência hoje às 15:48: o sistema já estava na versão mais nova\". Antes isso só existia no log do servidor, e não dava para saber, olhando a tela, se a atualização automática estava funcionando ou parada.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "A barra de rolagem desta tela aparecia no meio da janela, com metade da tela vazia ao lado. Agora ela fica na borda, como em todas as outras.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "A data mostrada em \"guardada para voltar\" podia ser trocada pela data da última conferência - uma data errada com cara de certa. As duas passaram a ser guardadas separadamente.",
+          "onde": "Sistema > Versão do sistema"
+        }
+      ]
+    },
+    {
       "numero": "1.1.1",
       "data": "2026-09-21",
       "mudancas": [
