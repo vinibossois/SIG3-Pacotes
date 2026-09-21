@@ -13,6 +13,27 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.1",
+      "data": "2026-09-21",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "A tela de login aparecia encostada no canto superior esquerdo, sem o cartão centralizado. O estilo dela não estava chegando ao navegador.",
+          "onde": "Tela de login"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "A lista \"O que mudou nesta versão\" era cortada no pé da tela, sem barra de rolagem e sem nada indicando que havia mais. Agora ela rola.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O pacote da atualização automática passou a ser montado no mesmo formato da instalação do servidor. Antes ele era recusado ao chegar, e o sistema continuava na versão anterior - com segurança, mas sem nunca atualizar.",
+          "onde": "Servidor (não aparece em tela)"
+        }
+      ]
+    },
+    {
       "numero": "1.1.0",
       "data": "2026-09-21",
       "mudancas": [
@@ -48,17 +69,17 @@
         },
         {
           "tipo": "novidade",
-          "o_que": "Relatórios do financeiro no catálogo — receber, pagar, caixa, duplicatas, limite de crédito, razões e conferência — com gráficos numa aba ao lado da folha.",
+          "o_que": "Relatórios do financeiro no catálogo - receber, pagar, caixa, duplicatas, limite de crédito, razões e conferência - com gráficos numa aba ao lado da folha.",
           "onde": "Relatórios"
         },
         {
           "tipo": "novidade",
-          "o_que": "O sistema passou a se atualizar sozinho. Ele confere uma vez por dia se há versão nova, baixa e deixa pronta; a troca acontece de madrugada, ou na próxima vez que o computador for ligado — o que vier primeiro. Se a versão nova não subir, o sistema volta sozinho para a anterior e continua no ar.",
+          "o_que": "O sistema passou a se atualizar sozinho. Ele confere uma vez por dia se há versão nova, baixa e deixa pronta; a troca acontece de madrugada, ou na próxima vez que o computador for ligado - o que vier primeiro. Se a versão nova não subir, o sistema volta sozinho para a anterior e continua no ar.",
           "onde": "Servidor (não aparece em tela)"
         },
         {
           "tipo": "novidade",
-          "o_que": "Tela para ver em que versão o sistema está, qual ficou guardada, e o que cada uma mudou — com um botão para voltar à anterior.",
+          "o_que": "Tela para ver em que versão o sistema está, qual ficou guardada, e o que cada uma mudou - com um botão para voltar à anterior.",
           "onde": "Sistema > Versão do sistema"
         },
         {
