@@ -1,0 +1,122 @@
+{
+  "_leia": [
+    "O que mudou em cada versao, para a tela 'Versao do sistema' poder dizer mais que um numero.",
+    "Este arquivo VIAJA COM O PACOTE: cada versao instalada carrega as proprias notas, e por isso",
+    "a versao guardada em <app>.anterior continua sabendo contar o que ELA trouxe.",
+    "",
+    "Escreva na lingua de quem usa o sistema, nao na de quem programou. 'onde' e a tela ou area",
+    "afetada - e o que permite a pessoa julgar o risco de atualizar ou de voltar.",
+    "tipo: novidade | correcao | melhoria.",
+    "",
+    "Os TEXTOS vao acentuados: sao lidos por quem usa o sistema, nao por quem edita este arquivo.",
+    "O arquivo e UTF-8 sem BOM - e assim que o NotasDaVersao.Ler o le."
+  ],
+  "versoes": [
+    {
+      "numero": "1.1.0",
+      "data": "2026-09-21",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "O financeiro foi reorganizado em torno de uma ideia só: Caixa e Bancos é a mesa onde o dinheiro se move, e Contas a Receber e Contas a Pagar são a central dos títulos. Receber e Pagar passam a consultar e incluir; toda baixa acontece no Caixa, junto com o lançamento do dinheiro. Não existe mais dar baixa num título sem dizer por onde o valor entrou ou saiu.",
+          "onde": "Financeiro"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Geração automática de títulos: ao autorizar uma nota, o título nasce sozinho, e a venda à vista já entra no caixa. Antes era preciso lançar à mão depois.",
+          "onde": "Financeiro > Contas a Receber"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Fluxo de Caixa de 13 semanas: o que entra e o que sai, semana a semana, para enxergar aperto antes de ele chegar.",
+          "onde": "Financeiro > Fluxo de Caixa"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Conferência pelo extrato do banco: importando o arquivo OFX, o sistema aponta o que já está lançado, o que falta e o que não bate. Ele confere se o arquivo é mesmo da conta aberta antes de mostrar qualquer coisa.",
+          "onde": "Financeiro > Caixa e Bancos"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Boletos do DDA aparecem no Contas a Pagar, para conferir o que o banco já sabe que você deve.",
+          "onde": "Financeiro > Contas a Pagar"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Cobrança por WhatsApp com régua de mensagens, e Pix copia e cola gerado na própria tela da cobrança.",
+          "onde": "Financeiro > Contas a Receber"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Relatórios do financeiro no catálogo — receber, pagar, caixa, duplicatas, limite de crédito, razões e conferência — com gráficos numa aba ao lado da folha.",
+          "onde": "Relatórios"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "O sistema passou a se atualizar sozinho. Ele confere uma vez por dia se há versão nova, baixa e deixa pronta; a troca acontece de madrugada, ou na próxima vez que o computador for ligado — o que vier primeiro. Se a versão nova não subir, o sistema volta sozinho para a anterior e continua no ar.",
+          "onde": "Servidor (não aparece em tela)"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Tela para ver em que versão o sistema está, qual ficou guardada, e o que cada uma mudou — com um botão para voltar à anterior.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "O número da versão passou a aparecer na barra superior e na tela de login, para o suporte conseguir lê-lo num print, sem precisar de acesso ao servidor.",
+          "onde": "Barra superior e tela de login"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Tela de Transporte, com incluir, alterar e excluir, e o lançamento de transporte num lugar só.",
+          "onde": "Transporte"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Caixa de entrada de NF-e retrabalhada: confirmação antes de cada ação, o Ignorar saiu do meio dos botões e foi para o menu, e a nota de transportador (NFT) passou a guardar o XML como as demais.",
+          "onde": "Fiscal > Manifestação"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Ao lançar uma nota de entrada, o sistema avisa qual operação está sendo usada, permite vincular produto pelo código de barras e marcar todos os itens de uma vez.",
+          "onde": "Lançar nota"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Toda busca de tela procura também pelo código do registro. Digitar o número do produto na Consulta de Estoque, ou o código do cliente num cadastro, agora acha.",
+          "onde": "Cadastros e Consulta de Estoque"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Relatório com muitas folhas passou a sair uma folha por vez na tela, em vez de fazer o sistema parecer travado enquanto monta tudo.",
+          "onde": "Relatórios"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O corte de texto nos relatórios passou a considerar a largura real da letra, e as colunas de nome e histórico ficaram mais largas. Antes, nome comprido sumia no meio.",
+          "onde": "Relatórios"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O logo da tela de login sumia no tema escuro: as letras eram azul-escuro sobre fundo escuro. Agora ele troca junto com o tema.",
+          "onde": "Tela de login"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Listas suspensas passaram a mostrar o nome inteiro e a não sair da tela.",
+          "onde": "Sistema inteiro"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "As telas do financeiro passaram a caber em tela pequena sem esconder totalizador atrás de rolagem, e a se ajustar à altura da tela do computador.",
+          "onde": "Financeiro"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Atualizar por cima pelo instalador passou a guardar a versão anterior. Antes, atualizar apagava a antiga e não havia como voltar.",
+          "onde": "Instalador do servidor"
+        }
+      ]
+    }
+  ]
+}
