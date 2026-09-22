@@ -13,6 +13,22 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.5",
+      "data": "2026-09-22",
+      "mudancas": [
+        {
+          "tipo": "melhoria",
+          "o_que": "A pasta de instalação do sistema no servidor deixou de ter mais de 400 arquivos soltos e passou a ter algumas dezenas: o programa inteiro agora vem num arquivo só. Nada muda para quem usa - muda para quem precisa olhar essa pasta e entender o que é cada coisa.",
+          "onde": "Servidor (não aparece em tela)"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "O botão \"Voltar para a versão anterior\" saiu do rodapé e passou a ficar ao lado de \"Procurar agora\", na mesma linha. A tela também voltou a usar a largura inteira da janela.",
+          "onde": "Sistema > Versão do sistema"
+        }
+      ]
+    },
+    {
       "numero": "1.1.4",
       "data": "2026-09-22",
       "mudancas": [
