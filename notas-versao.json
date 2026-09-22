@@ -13,6 +13,27 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.6",
+      "data": "2026-09-22",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "A atualização falhava sempre com \"acesso negado\" enquanto a pasta das estações estivesse compartilhada na rede. O Windows não deixa renomear uma pasta que tem uma subpasta compartilhada, e a pasta das estações ficava dentro da pasta do sistema. Agora ela fica ao lado, e o sistema a leva para lá sozinho na primeira vez que sobe. As estações continuam abrindo o mesmo endereço de sempre.",
+          "onde": "Servidor (não aparece em tela)"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Se a pasta do sistema estiver aberta por alguém no momento da atualização - uma janela do Windows Explorer, por exemplo - a atualização deixa de falhar: ela troca os arquivos um a um em vez de trocar a pasta inteira, guardando antes uma cópia da versão anterior para poder voltar.",
+          "onde": "Servidor (não aparece em tela)"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O aviso de que o sistema sai do ar ficava na tela o tempo todo, e ao confirmar uma atualização aparecia duplicado. Agora ele só aparece depois do clique, uma vez, com a frase da ação escolhida. O botão de voltar também passou a pedir confirmação e a dizer para qual versão volta.",
+          "onde": "Sistema > Versão do sistema"
+        }
+      ]
+    },
+    {
       "numero": "1.1.5",
       "data": "2026-09-22",
       "mudancas": [
