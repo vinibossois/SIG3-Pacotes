@@ -13,6 +13,52 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.7",
+      "data": "2026-09-23",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "O painel de lançamento do Caixa (a coluna da direita, antes chamada de \"boleta\") agora se chama ficha, ganhou um botão Limpar e passou a avisar antes de jogar fora o que você digitou: trocar de Entrou/Saiu/Receber/Pagar, abrir outra conta ou trocar a transação com a ficha preenchida agora pede confirmação. Antes, um clique errado apagava o lançamento inteiro sem dizer nada.",
+          "onde": "Financeiro > Caixa e Bancos"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Adiantamento de cliente e crédito com fornecedor podem ser lançados e desfeitos direto pela tela do Caixa, pelo combo de transação ou pelo atalho da faixa \"De sempre\".",
+          "onde": "Financeiro > Caixa e Bancos"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "A tela de entrada do sistema foi redesenhada: o campo de senha fica num cartão à esquerda e a apresentação do sistema à direita.",
+          "onde": "Entrada do sistema"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "As telas de cadastro ficaram mais limpas: o menu \"Comandos\" saiu do cabeçalho, o botão de configurações desceu para o rodapé, e a situação do registro (bloqueado, sem NCM, código repetido) passou a aparecer como um ícone colado ao nome na lista, em vez de ocupar uma coluna só dela - sobra largura para os dados.",
+          "onde": "Clientes, Produtos, Contas, Setores e Bancos"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "As fichas de Cliente e de Produto foram reorganizadas em cartões, e a inscrição estadual deixou de ser cobrada de quem não tem.",
+          "onde": "Cadastros > Clientes e Produtos"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "As listas de produtos da Revisão Fiscal deixaram de travar com muitas linhas: passaram a carregar sob demanda enquanto você rola.",
+          "onde": "Fiscal > Revisão fiscal"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "A baixa de adiantamento procurava pela transação errada e não achava o crédito do participante.",
+          "onde": "Financeiro > Caixa e Bancos"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Numa lista, a linha selecionada voltava a ficar da cor do \"mouse por cima\" e se perdia de vista.",
+          "onde": "Todas as listas"
+        }
+      ]
+    },
+    {
       "numero": "1.1.6",
       "data": "2026-09-22",
       "mudancas": [
