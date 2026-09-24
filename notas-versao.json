@@ -13,6 +13,37 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.10",
+      "data": "2026-09-23",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "Uma instalação marcada como \"não emite NF-e nem NFC-e\" deixou de exigir certificado digital. Antes ela era barrada com \"Arquivo do certificado não encontrado\" e não havia como concluir.",
+          "onde": "Instalação"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Desinstalar um sistema que nunca chegou a ser configurado deixou de apagar a atualização automática de OUTRO sistema instalado na mesma máquina.",
+          "onde": "Instalação"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Quando dois sistemas SIG3 rodam no MESMO servidor, cada um passou a ter a própria atualização automática. Antes, instalar o segundo desligava a atualização do primeiro sem avisar, e o botão \"Procurar agora\" de um mexia na versão do outro. Nada muda para quem tem um SIG3 só.",
+          "onde": "Sistema > Versão do sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "No instalador de um sistema de demonstração, a conferência do banco passou a ser obrigatória e a emissão não pode mais ser religada pela detecção. Numa máquina que já roda outro SIG3, o instalador detectava o banco e as notas DELE e propunha usá-los: um Avançar distraído apontaria a demonstração para o banco de produção.",
+          "onde": "Instalação"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O instalador do servidor e o das estações ganharam identidade própria por instalação, para que instalar um segundo sistema na mesma máquina não instale por cima do primeiro nem desinstale o aplicativo das estações.",
+          "onde": "Instalação"
+        }
+      ]
+    },
+    {
       "numero": "1.1.7",
       "data": "2026-09-23",
       "mudancas": [
