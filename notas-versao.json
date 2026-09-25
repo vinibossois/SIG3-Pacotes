@@ -13,6 +13,17 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.12",
+      "data": "2026-09-25",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "Alterar uma nota INTERNA que ainda estava como \"Registrada\" abria a tela de venda no balcão e, ao finalizar, trocava a operação da nota pela operação de NFC-e configurada — a nota interna virava uma NFC-e de verdade e era enviada à SEFAZ. Agora ela abre na tela de NF-e, que é onde foi feita, e mantém a própria operação. Atualize assim que puder: enquanto não atualizar, não use Alterar em nota Interna.",
+          "onde": "Vendas > Notas Transmitidas"
+        }
+      ]
+    },
+    {
       "numero": "1.1.11",
       "data": "2026-09-25",
       "mudancas": [
