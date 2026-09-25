@@ -13,6 +13,17 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.13",
+      "data": "2026-09-25",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "Completa a correção da 1.1.12: agora SÓ a NFC-e abre na tela de venda no balcão ao usar Alterar. Qualquer outro documento — NF-e, nota interna, e também os modelos menos comuns, como os que ficam sem modelo definido na operação — abre na tela de NF-e. Na 1.1.12 a correção alcançava a nota interna e a NF-e, mas um documento de modelo diferente desses ainda ia parar na tela errada.",
+          "onde": "Vendas > Notas Transmitidas"
+        }
+      ]
+    },
+    {
       "numero": "1.1.12",
       "data": "2026-09-25",
       "mudancas": [
