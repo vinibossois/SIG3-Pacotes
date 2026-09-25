@@ -13,6 +13,82 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.11",
+      "data": "2026-09-25",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "Um produto pode ser montado a partir de outros. O cadastro de Kits diz de que ele é feito, e montar ou desmontar movimenta o estoque dos dois lados de uma vez. Dá para cadastrar um produto novo sem sair da tela.",
+          "onde": "Controle de Estoque > Kits"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "O lançamento pode ser feito inteiro pelo teclado: o Enter caminha pelos campos na ordem da tela e, na NF-e, atravessa as abas e as etapas até o fim da nota, sem passar pelo mouse.",
+          "onde": "Caixa e Bancos, NF-e, Consulta de Estoque"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "O Meu menu foi refeito: a ordem muda arrastando, inclusive para dentro de um grupo; cada tela pode receber um ícone escolhido de toda a biblioteca; e a lista filtra por ocultas, renomeadas ou seus próprios grupos.",
+          "onde": "Sistema > Meu menu"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Bancos ganharam a marca \"Usa OFX\". No banco marcado, o lançamento nasce pendente e só a conferência do extrato o concilia — antes ele nascia conciliado na data, o que não é verdade em conta conferida pelo extrato. Nada muda nos bancos não marcados. A marca só aparece depois que o banco de dados receber o campo, que vem numa atualização do sistema instalado no servidor.",
+          "onde": "Cadastros > Bancos"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "A senha do certificado digital deixou de ficar legível no banco de dados. Quem já tinha a senha gravada não precisa digitá-la de novo.",
+          "onde": "Cadastros > Filiais"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Fechar uma janela com edição em andamento pelo Esc ou pelo X passou a perguntar antes de descartar, em vez de jogar o trabalho fora sem avisar.",
+          "onde": "Todo o sistema"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "As janelas, os botões e os campos de data do sistema inteiro passaram a seguir o mesmo padrão. As datas agora abrem calendário em todas as telas.",
+          "onde": "Todo o sistema"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "A tela de Relatórios ganhou troca de filtros sem sair do relatório, lista de gráficos e a opção de lembrar os filtros usados.",
+          "onde": "Relatórios > Catálogo"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Em telas de 1366x768, quatro dos cinco filtros de Receber e Pagar ficavam fora da área visível e não havia como alcançá-los.",
+          "onde": "Financeiro > Receber e Pagar"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O saldo resultante saiu da área de rolagem e o totalizador entrou na grade, para continuarem visíveis enquanto se rola a lista.",
+          "onde": "Caixa e Bancos"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Na NF-e, o botão Registrar ficava por cima do Próximo, e a nota podia ser finalizada pela régua da NFC-e, que é outra.",
+          "onde": "NF-e"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Campos de valor deixaram de aceitar número absurdo, uma data apagada deixou de virar 01/01/0001 e o foco parou de se perder depois de corrigir um campo.",
+          "onde": "Corrigir Nota, Caixa e Bancos, Consulta de Estoque"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "O botão que abre o menu lateral voltou a responder ao teclado e a ser anunciado corretamente por leitor de tela.",
+          "onde": "Todo o sistema"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Dois níveis de acesso que impediam o bloqueio de tela foram acertados: quem não pode ver uma tela volta a não vê-la.",
+          "onde": "Sistema > Acesso"
+        }
+      ]
+    },
+    {
       "numero": "1.1.10",
       "data": "2026-09-23",
       "mudancas": [
