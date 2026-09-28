@@ -13,6 +13,42 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.14",
+      "data": "2026-09-28",
+      "mudancas": [
+        {
+          "tipo": "novidade",
+          "o_que": "Pix copia e cola da cobrança agora vem da conta bancária: cada conta pode ter sua chave Pix e dizer quais operações recebem nela (ex.: nota de serviço numa conta, recibo em outra). A chave única que ficava nas configurações deixou de valer — cadastre o Pix na conta, senão a cobrança sai sem Pix.",
+          "onde": "Cadastro de Bancos, Controle de Clientes, Contas a Receber"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Controle de Clientes: contrato de mensalidade e histórico de cobrança de cada cliente, com estatísticas.",
+          "onde": "Financeiro > Controle de Clientes"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Anomalias do sistema em painel, com \"Resolver\", \"Ciente\" e \"Como resolver\"; Resultado e Caixa e Análises Financeiras refeitos.",
+          "onde": "Financeiro"
+        },
+        {
+          "tipo": "novidade",
+          "o_que": "Antes de transmitir, a nota é conferida (data, direção do CFOP, destinatário habilitado na SEFAZ); envio automático desligável por modelo, botão Transmitir, edição do XML com senha do usuário 0 e tela Corrigir Nota com o erro da SEFAZ.",
+          "onde": "Vendas > Notas Transmitidas"
+        },
+        {
+          "tipo": "correcao",
+          "o_que": "Nota não transmitida sai com a data de hoje; NF-e transmitida em dia posterior não sai mais com a data de saída antes da de emissão; Corrigir Nota não apaga mais frete, seguro e classificação contábil.",
+          "onde": "Vendas > Notas Transmitidas"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "DANFE revisado e logomarca da filial trocável pela tela.",
+          "onde": "Impressão da NF-e"
+        }
+      ]
+    },
+    {
       "numero": "1.1.13",
       "data": "2026-09-25",
       "mudancas": [
