@@ -1,10 +1,10 @@
 {
-    "versao":  "1.1.14",
-    "arquivo":  "https://github.com/vinibossois/SIG3-Pacotes/releases/download/v1.1.14/sig3-1.1.14.zip",
-    "tamanho_bytes":  148556626,
-    "sha256":  "80900e3d6125e15340d19f0da24d3e9a314161be489705dfafd45532625fdb6e",
-    "assinatura":  "TIWtQ2Yb6T2lBI5zYNSnh+SfexgbT8iD3Yzag0Aoe/qCwugHybfOQX9ZuUMJwhGQKUBRZU66/EOaJgCy5tZGBHzRB7FQU+9gYS4cKm+qoOcGoVgMuunxrL3WpCsEj0WDnOcBsw4gMYo7zLigXlCztRHCaQEkFoNy5CTQoS6/v7lDKGOYdkY68h6zvpd6xuncEz6zR7ROLAIsieQS059AxkUyINEnsISU5XlflHCX2wJd87yhRK0Y6HY8+xkascwIQngH4ROY1i3wsa5cUfV1ZjQZnJ/YYFjJogT9I3VidT73V6kIO+PS8l2d4MuX+tvTdnArBY26Kpv+w0SlkQ+z/TX6x8w9ZJhOmhMRzcwrhoKrsgnWWLlcQoJDqi55MLR69WT5XSxTCKlvoiVkbmn/bznZjL19Tj0pw5cqnc/ICz+JwwftWcCAQOHWQhTUe7SVsSrbxpDKKPjZhfJnxDM7DRIuJPChgNV+OF9skdOoKeGxjs20GM01R2d0I3mRt9LE",
-    "data":  "2026-09-28",
+    "versao":  "1.1.15",
+    "arquivo":  "https://github.com/vinibossois/SIG3-Pacotes/releases/download/v1.1.15/sig3-1.1.15.zip",
+    "tamanho_bytes":  148568985,
+    "sha256":  "49bcbc0b59a6dbd88a3bf644d2fa28a41af0407d8c95b6a82a2f2c58e6221a4b",
+    "assinatura":  "nyhphn56RQ/bF+D7nAWDCRgSM0IqnVyOx9IxBWeiwReNB+6FQkTUwBEuvYgwkDQDr9KclKdv74Cfrn5dDT5kR/180XTDFymZ6aVIUOB+zXU77XCgGM3YzxfQiPVh3unVXeFrQrAm/NTjyJaoRvDR2IrOOFFBFhxk4ZVYZspsUJlJfcJfWGwkDDp+Ur7p7VWrK5XsA/PylT3jwaY4EgOYot5W8IKHSepL7lnFDUwIQCjgjxaNgRb869X3+K7Fu7+hnktbLRF/RIOHgxp+rZAENIlhyPeZbb8is3O0zqO3pN4mLvzMkjevZyZtXF4RujyBVRJnEwkuLvzzVcINYjXqjX2y7BTMOy1HVYnNDlt+v1ZKqWNPERZcm5lCe2vPoXcwh0gT2zUjVrvXHU09Lo+cqqk+qyGV9i4niZuM6IoMFM8pGfDCx1I5FfptoPcnMxv0gmPAHKhEJR+7kCC3IWJPZqCu3TGMShNYMJxTTiRWmIEMvTkoJ2591ymjyYx971Rv",
+    "data":  "2026-09-29",
     "exige_banco":  [
                         "CDBANCO.CHAVEPIX"
                     ]

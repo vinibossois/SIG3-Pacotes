@@ -13,6 +13,22 @@
   ],
   "versoes": [
     {
+      "numero": "1.1.15",
+      "data": "2026-09-28",
+      "mudancas": [
+        {
+          "tipo": "correcao",
+          "o_que": "A mensagem de cobrança saía com o nome e o Pix do cliente selecionado ANTES: ao trocar de cliente na lista, o texto copiado cumprimentava o anterior e o Pix podia cair na conta da operação do contrato dele.",
+          "onde": "Financeiro > Controle de Clientes"
+        },
+        {
+          "tipo": "melhoria",
+          "o_que": "Com algum título em atraso, a cobrança e o Pix copia e cola levam só os vencidos: a mensalidade que ainda vai vencer não é mais cobrada junto com a atrasada.",
+          "onde": "Financeiro > Controle de Clientes e Contas a Receber"
+        }
+      ]
+    },
+    {
       "numero": "1.1.14",
       "data": "2026-09-28",
       "mudancas": [
