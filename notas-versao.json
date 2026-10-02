@@ -13,6 +13,23 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.1",
+      "data": "2026-10-02",
+      "mudancas": [
+        { "tipo": "melhoria", "o_que": "O Financeiro do menu ficou dividido em Movimento, Cobrança e Automação e Análises, e Bancos de Cheque foi para Cadastros > Financeiro.", "onde": "Menu" },
+        { "tipo": "melhoria", "o_que": "Primeira versão para os clientes. CT-e, MDF-e e Mercado Livre vêm instalados, mas fora do menu até serem liberados para a empresa; o Assistente virtual fica desligado.", "onde": "Menu" },
+        { "tipo": "novidade", "o_que": "Conferência pelo extrato do banco (OFX) junta vários lançamentos num movimento só: o depósito da maquininha que soma as vendas de cartão do dia (com os centavos de taxa acertados pelo valor que o banco pagou) e o PIX que paga vários títulos. O que não fecha sozinho dá para compor à mão, inclusive com títulos em aberto, que são baixados na hora.", "onde": "Financeiro > Caixa e Bancos > Conferir extrato" },
+        { "tipo": "novidade", "o_que": "O extrato pode ser organizado pela data da conciliação, como o banco mostra, com o saldo no banco e o que ainda falta conciliar no alto. Cada lançamento de venda mostra o meio de pagamento (PIX, crédito, débito).", "onde": "Financeiro > Caixa e Bancos" },
+        { "tipo": "melhoria", "o_que": "Excluir um lançamento de venda ou um título gerado devolve a venda para ser lançada de novo à mão, em vez de ela sumir das listas.", "onde": "Caixa e Bancos, Contas a Receber, Contas a Pagar, Geração de Títulos" },
+        { "tipo": "melhoria", "o_que": "Pedido de venda: os campos Obs1, Obs2 e Obs3 e o custo/lucro seguem as configurações do sistema desktop (o custo fica escondido do vendedor, como lá).", "onde": "Vendas > Pedidos de Venda" },
+        { "tipo": "melhoria", "o_que": "Os Controles do Sistema só abrem para o administrador, com a senha dele. Só o contador alterado é gravado, e nunca abaixo do maior número já usado; antes de gravar aparece o que muda (de → para), e a alteração fica registrada.", "onde": "Cadastros > Filiais > Controles do Sistema" },
+        { "tipo": "correcao", "o_que": "Clique duplo em Gravar não lança mais o título parcelado, a sangria ou o suprimento duas vezes.", "onde": "Contas a Receber, Contas a Pagar, Caixa, Cheques, Geração de Títulos" },
+        { "tipo": "correcao", "o_que": "Nota enviada sem resposta da SEFAZ fica na fila automática: não se corrige, edita nem troca a data até a consulta confirmar o que aconteceu.", "onde": "Notas Transmitidas" },
+        { "tipo": "correcao", "o_que": "Lançar Nota com fornecedor novo de endereço longo ou acentuado não falha mais, e o custo médio com estoque negativo passa a ser calculado como no sistema desktop.", "onde": "Compras > Lançar Nota" },
+        { "tipo": "correcao", "o_que": "Um erro de banco ao clicar num botão mostra um aviso com código para o suporte, em vez de travar a tela.", "onde": "Financeiro, Caixa, Cheques, Estoque, Tabelas de Preço" }
+      ]
+    },
+    {
       "numero": "1.1.15",
       "data": "2026-09-28",
       "mudancas": [
