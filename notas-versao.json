@@ -13,6 +13,16 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.2",
+      "data": "2026-10-05",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "O assistente entende perguntas em sequência, como \"e para dar baixa nele?\" ou \"ainda não resolveu\", sem repetir o caminho que não deu certo. Depois de 5 respostas no mesmo assunto sem resolver, ele oferece o suporte.", "onde": "Assistente" },
+        { "tipo": "melhoria", "o_que": "Quando a inteligência artificial está fora do ar, o assistente mostra a resposta pronta da ajuda, ou os passos a passo e a página de dúvidas que combinam com a pergunta.", "onde": "Assistente" },
+        { "tipo": "novidade", "o_que": "O certificado digital A1 da empresa pode ser enviado e trocado pela tela, com a conferência da senha, da validade e do CNPJ antes de gravar.", "onde": "Cadastros > Filiais > Certificado" },
+        { "tipo": "melhoria", "o_que": "A chave secreta do aplicativo do Mercado Livre é informada pela tela de configuração, e quando a conexão é recusada a tela mostra o motivo.", "onde": "Integrações > Mercado Livre" }
+      ]
+    },
+    {
       "numero": "1.2.1",
       "data": "2026-10-02",
       "mudancas": [
