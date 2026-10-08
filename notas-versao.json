@@ -13,6 +13,13 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.3",
+      "data": "2026-10-05",
+      "mudancas": [
+        { "tipo": "melhoria", "o_que": "O assistente conversa de forma mais natural: responde a cumprimentos e agradecimentos, diz que está funcionando quando perguntam, pede mais detalhes quando a pergunta é vaga e abre cada resposta com uma frase sobre o que você pediu. O passo a passo continua vindo da ajuda revisada.", "onde": "Assistente" }
+      ]
+    },
+    {
       "numero": "1.2.2",
       "data": "2026-10-05",
       "mudancas": [
