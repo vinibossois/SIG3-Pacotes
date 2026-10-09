@@ -13,6 +13,22 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.4",
+      "data": "2026-10-09",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Balanço de estoque: conte os produtos com o leitor de código de barras (cada leitura soma 1) ou digitando, parcial ou completo, com a data de hoje ou o último dia de um mês passado. Gerar mostra o resumo antes e cria os ajustes de entrada e saída; dá para desfazer. O balanço completo e o de mês fechado pedem a senha do responsável.", "onde": "Estoque > Controle de Estoque > Balanço" },
+        { "tipo": "melhoria", "o_que": "Os ajustes gerados pelo balanço não aparecem na lista de notas, nos relatórios de venda nem nos números da tela inicial.", "onde": "Notas, Relatórios, Início" },
+        { "tipo": "novidade", "o_que": "Baixar o XML da nota pelo menu Ações (nota cancelada vem junto com o evento de cancelamento, num .zip).", "onde": "Notas Transmitidas" },
+        { "tipo": "novidade", "o_que": "Desfazer a junção de pedidos: apaga o pedido juntado e devolve os de origem para Finalizado.", "onde": "Pedidos de Venda" },
+        { "tipo": "novidade", "o_que": "O fechamento do mês confere as vendas e as compras com a SEFAZ, e nota sem autorização fica fora do Sintegra e dos relatórios do fechamento.", "onde": "Fechamento do mês" },
+        { "tipo": "novidade", "o_que": "O controle de datas do banco (lançar e conciliar desde, dias livres e o responsável que libera) pode ser editado na tela.", "onde": "Cadastros > Bancos" },
+        { "tipo": "melhoria", "o_que": "A janela de alterar lançamento segue o padrão da ficha, com as colunas alinhadas.", "onde": "Financeiro > Caixa e Bancos" },
+        { "tipo": "correcao", "o_que": "Usuário com filial no cadastro entra só nela, como no Delphi.", "onde": "Login" },
+        { "tipo": "melhoria", "o_que": "No acesso remoto do suporte, a faixa mostra o nome do técnico conectado e a hora em que a conexão cai se ficar parada.", "onde": "Suporte" },
+        { "tipo": "melhoria", "o_que": "O que sai no PDF do relatório se escolhe na ficha do relatório, e os botões Relatório e Gráficos ficaram em destaque.", "onde": "Relatórios" }
+      ]
+    },
+    {
       "numero": "1.2.3",
       "data": "2026-10-05",
       "mudancas": [
