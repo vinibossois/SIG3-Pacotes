@@ -13,6 +13,25 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.5",
+      "data": "2026-10-15",
+      "mudancas": [
+        { "tipo": "melhoria", "o_que": "Caixa da NFC-e mais enxuto: a logomarca da empresa no lugar das últimas vendas, total maior no topo, pagamento numa janela própria com teclas de 1 a 8 e troco, e a venda nova abre direto.", "onde": "Vendas > NFC-e" },
+        { "tipo": "melhoria", "o_que": "NF-e em etapas numa página só, com o Enter de ponta a ponta, pagamento no jeito da NFC-e e, no F2 da revisão, a escolha entre Finalizar, Registrar e Voltar. O estoque aparece ao lado de cada item.", "onde": "Vendas > NF-e" },
+        { "tipo": "novidade", "o_que": "Configuração Força dinheiro (NF-e e NFC-e) e F10 para o desconto no total da NFC-e.", "onde": "Vendas" },
+        { "tipo": "novidade", "o_que": "Cadastro rápido de cliente e de produto sem sair da NF-e, da NFC-e ou do Pedido.", "onde": "Vendas" },
+        { "tipo": "melhoria", "o_que": "Atalhos de teclado do Delphi nas telas de venda, valendo com o cursor em qualquer lugar fora de um campo. O F1 mostra primeiro os atalhos da tela aberta.", "onde": "Vendas, Notas Transmitidas, Contas" },
+        { "tipo": "novidade", "o_que": "Importa Pedido e Fatura OS ficam nas Notas Transmitidas, que pergunta se a nota sai como NFC-e ou NF-e.", "onde": "Notas Transmitidas" },
+        { "tipo": "novidade", "o_que": "Perfis de usuário prontos (Supervisor, Vendas, Caixa, Estoque, Compras, Financeiro, Fiscal) e nível de acesso por módulo.", "onde": "Sistema > Usuários" },
+        { "tipo": "novidade", "o_que": "Mais de uma filial: trocar de filial pelo menu, estoque das outras lojas na busca de produto e financeiro seguindo a filial do login.", "onde": "Sistema, Estoque, Financeiro" },
+        { "tipo": "novidade", "o_que": "Envio das notas à contabilidade (Domínio) pela API Onvio.", "onde": "Integrações" },
+        { "tipo": "melhoria", "o_que": "Caixa e Bancos: cheque pré-datado no lançamento, Ctrl+setas trocam a conta, Esc limpa a ficha e a tela cabe sem rolagem em monitor menor.", "onde": "Financeiro > Caixa e Bancos" },
+        { "tipo": "melhoria", "o_que": "Textos explicativos das telas viraram um ícone de ajuda com o texto no mouse; os avisos de problema continuam visíveis.", "onde": "Todas as telas" },
+        { "tipo": "melhoria", "o_que": "As configurações que ainda não têm efeito no sistema ficam numa aba À implementar.", "onde": "Configurações" },
+        { "tipo": "correcao", "o_que": "Gravação de nota que demora mostra Aguarde em vez de deixar a tela parada, e o aviso de estoque negativo da NFC-e não fica mais preso na tela.", "onde": "Vendas" }
+      ]
+    },
+    {
       "numero": "1.2.4",
       "data": "2026-10-09",
       "mudancas": [
