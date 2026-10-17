@@ -13,6 +13,26 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.6",
+      "data": "2026-10-17",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Ordem de Serviço: quadro das OS, ficha do veículo ou equipamento e linha do tempo, com veículo opcional, Km só para veículo, placa de moto, impressão em A4 e nota resumida de 80 mm, e o faturamento pelas Notas Transmitidas.", "onde": "Vendas > Ordem de Serviço" },
+        { "tipo": "novidade", "o_que": "Cadastro de veículos da OS.", "onde": "Cadastros > Vendas" },
+        { "tipo": "novidade", "o_que": "Pedido com peça e serviço vira duas notas: o serviço sai numa nota de serviço e a NF-e leva só as peças.", "onde": "Vendas > Pedidos e NF-e" },
+        { "tipo": "melhoria", "o_que": "Lançar Nota reorganizado em etapas (Nota, Produtos e Revisão Final), com o Enter de ponta a ponta, F2 para avançar, aba Fiscal do item em grupos, Remarcação Rápida no item, Insert para incluir item na nota manual e um alerta com Recalcular para cada total que não bate.", "onde": "Compras > Lançar Nota" },
+        { "tipo": "melhoria", "o_que": "Notas de Entrada: totais e impostos em grupos com linha pontilhada e duplicatas logo abaixo, abertos só quando pedidos.", "onde": "Compras > Notas de Entrada" },
+        { "tipo": "melhoria", "o_que": "Cada tela de inclusão mostra qual documento está aberto num crachá colorido antes das etapas (NF-e, NFC-e, CT-e, MDF-e e Entrada), e o texto embaixo de cada etapa diz uma coisa só: o cliente, os itens com o valor, o meio de pagamento.", "onde": "Vendas e Compras" },
+        { "tipo": "melhoria", "o_que": "Revisão da NF-e e detalhe da nota nas Notas Transmitidas no mesmo formato rótulo e valor das Notas de Entrada.", "onde": "Vendas > NF-e e Notas Transmitidas" },
+        { "tipo": "melhoria", "o_que": "Visual padronizado: cartões e painéis com cantos iguais, botões de ícone redondos e barra superior só com os ícones, com voltar, avançar e recarregar à esquerda da busca.", "onde": "Todas as telas" },
+        { "tipo": "novidade", "o_que": "Conferência do caixa mostra o saldo do extrato (OFX) ao lado do saldo do sistema.", "onde": "Financeiro > Caixa e Bancos" },
+        { "tipo": "novidade", "o_que": "Cadastro de produto com descrição e referência variáveis.", "onde": "Cadastros > Produtos" },
+        { "tipo": "melhoria", "o_que": "Atalhos do rodapé da NFC-e menores, ocupando menos espaço.", "onde": "Vendas > NFC-e" },
+        { "tipo": "correcao", "o_que": "O ISS não sai mais do total da nota.", "onde": "Vendas" },
+        { "tipo": "correcao", "o_que": "Enter rápido na busca não escolhe mais da lista do texto anterior.", "onde": "Buscas" },
+        { "tipo": "correcao", "o_que": "NFS-e autorizada ou cancelada pelo padrão nacional não aparece mais como Com erro.", "onde": "Notas Transmitidas" }
+      ]
+    },
+    {
       "numero": "1.2.5",
       "data": "2026-10-15",
       "mudancas": [
