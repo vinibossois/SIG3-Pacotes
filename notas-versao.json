@@ -13,6 +13,13 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.7",
+      "data": "2026-10-17",
+      "mudancas": [
+        { "tipo": "melhoria", "o_que": "Ícones e elementos pequenos redondos em todo o sistema: ícones das pendências do Início, dias do calendário, caixinhas de marcar tarefa e título, avatar do menu, ponto de situação das listas e botões dos gráficos.", "onde": "Todas as telas" }
+      ]
+    },
+    {
       "numero": "1.2.6",
       "data": "2026-10-17",
       "mudancas": [
