@@ -13,6 +13,25 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.8",
+      "data": "2026-10-22",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "DF-e Emitidas: NF-e, NFC-e, NFS-e, CT-e e MDF-e na mesma lista, com o botão Emitir DF-e no rodapé. O menu Vendas passa a se chamar Emissões.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "melhoria", "o_que": "MDF-e no padrão do sistema antigo e do monitor, com tela mais direta; CT-e e MDF-e com o mesmo teclado, rodapé e detalhe das notas.", "onde": "Emissões > CT-e e MDF-e" },
+        { "tipo": "novidade", "o_que": "Pedidos: lista e consulta no padrão das DF-e Emitidas, parcelamento personalizado com prazo padrão e tabela de parcelamento com juros (F7), desconto em % e em R$ e lucro negativo em vermelho.", "onde": "Vendas > Pedidos" },
+        { "tipo": "novidade", "o_que": "Kit produzido na hora da venda, com aviso no momento do item quando falta insumo para produzir.", "onde": "Estoque > Produção e Kits" },
+        { "tipo": "melhoria", "o_que": "Cadastro de produtos: a consulta mostra os dados em rótulo e valor, como nas notas, com a venda varejo em destaque; a inclusão ficou organizada em Identificação, Classificação e Controles.", "onde": "Cadastros > Produtos" },
+        { "tipo": "novidade", "o_que": "Manifestação: manifestação do CT-e, importar DF-e pela chave de acesso, copiar chave pelo botão direito e coluna de situação com lançamento, manifestação e XML.", "onde": "Compras > Manifestação" },
+        { "tipo": "melhoria", "o_que": "Lançar Nota: o Avançar mostra a lista do que falta, e a operação só trava o lançamento, não o avanço.", "onde": "Compras > Lançar Nota" },
+        { "tipo": "novidade", "o_que": "Relatórios: montar e trocar colunas na tela, juntar campos, escrever fórmula e ajustar o leiaute sem sair do sistema.", "onde": "Relatórios" },
+        { "tipo": "melhoria", "o_que": "Tela inicial com favoritos no topo e a lista do que precisa de atenção; o sino mostra só o número do nível mais grave e avisa homologação e contingência.", "onde": "Início" },
+        { "tipo": "novidade", "o_que": "Grupo Preferências no menu, com Meu menu e Ajustes pessoais.", "onde": "Menu" },
+        { "tipo": "melhoria", "o_que": "Enter no fim de uma aba dos cadastros passa para a próxima aba e, na última, para o Gravar.", "onde": "Cadastros" },
+        { "tipo": "melhoria", "o_que": "Telas de suporte (Versão do sistema, Acesso de computadores, Envio ao Domínio, E-mail do sistema, Banco de dados) só para o usuário 0 e o suporte; tela padrão de acesso negado.", "onde": "Sistema" },
+        { "tipo": "novidade", "o_que": "Sincronia do gerencial com as filiais fiscais, com perfil ligado ao Exp/Imp do sistema antigo.", "onde": "Sistema > Sincronia" }
+      ]
+    },
+    {
       "numero": "1.2.7",
       "data": "2026-10-17",
       "mudancas": [
