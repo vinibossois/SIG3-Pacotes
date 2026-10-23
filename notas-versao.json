@@ -13,6 +13,21 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.9",
+      "data": "2026-10-23",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Ver espelho: a nota Registrada, Em Espera ou Com erro mostra o DANFE com a marca SEM VALOR FISCAL, para o cliente conferir antes de transmitir.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "novidade", "o_que": "Documento interno (operação que não emite nota) ganha o botão Imprimir, com um papel no molde do pedido de venda.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "melhoria", "o_que": "O PDF do MDF-e (DAMDFE) é guardado junto do XML na autorização, como o DANFE.", "onde": "Emissões > MDF-e" },
+        { "tipo": "novidade", "o_que": "Modelos de documento (DANFE, pedido, OS, recibo...) customizados por cliente na pasta Documentos da instalação, que a atualização não apaga.", "onde": "Instalação" },
+        { "tipo": "novidade", "o_que": "Tela inicial nova em três colunas, com as tarefas do dia, o que precisa de atenção (inclusive os alertas do sino) e os favoritos.", "onde": "Início" },
+        { "tipo": "melhoria", "o_que": "Agenda reorganizada: lista com o calendário ao lado, quadro por prioridade, novo lembrete mais direto e opção de excluir o lembrete.", "onde": "Agenda" },
+        { "tipo": "melhoria", "o_que": "Lançar CT-e igual ao Lançar NF-e: transportadora e número obrigatórios, botão para cadastrar a transportadora, atalhos F2 e lista do que falta para finalizar.", "onde": "Lançamentos > Lançar DF-e" },
+        { "tipo": "melhoria", "o_que": "O XML da NF-e e do CT-e recebidos é arquivado na pasta de XML ao lançar.", "onde": "Lançamentos" },
+        { "tipo": "melhoria", "o_que": "Produção e Kits mostra quanto está disponível para produção.", "onde": "Estoque > Produção e Kits" }
+      ]
+    },
+    {
       "numero": "1.2.8",
       "data": "2026-10-22",
       "mudancas": [
