@@ -13,6 +13,24 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.10",
+      "data": "2026-10-27",
+      "mudancas": [
+        { "tipo": "melhoria", "o_que": "Telas de inclusão com a cor do documento: o selo no alto diz qual documento está aberto (NF-e, NFC-e, CT-e, MDF-e, entrada) e a tela inteira ganha o tom dele.", "onde": "Emissões e Lançamentos" },
+        { "tipo": "novidade", "o_que": "Enviar a nota e os boletos por e-mail pelo botão em DF-e Emitidas; no envio automático, o e-mail espera o boleto ficar pronto.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "novidade", "o_que": "Botão Imprimir Romaneio, ligado pela configuração UsaRomaneio.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "novidade", "o_que": "Juros pela taxa da condição de pagamento; trocar a condição no pagamento refaz as parcelas.", "onde": "Vendas > Pedidos" },
+        { "tipo": "correcao", "o_que": "A nota gerada de um pedido com juros da condição cobrava os juros duas vezes.", "onde": "Emissões > NF-e" },
+        { "tipo": "novidade", "o_que": "Botão Gerar mensalidades.", "onde": "Financeiro > Controle de Clientes" },
+        { "tipo": "melhoria", "o_que": "O boleto abre na tela, com o botão Voltar, como o DANFE; o painel do título a receber mostra os dados do cadastro do cliente.", "onde": "Financeiro" },
+        { "tipo": "melhoria", "o_que": "Animações no sistema todo, com a opção de desligar (configuração DesligaAnimacoes); a troca de tema não deixa mais partes da tela na cor antiga.", "onde": "Sistema todo" },
+        { "tipo": "correcao", "o_que": "CT-e recusado quando o endereço de uma das partes tinha espaço no começo ou no fim.", "onde": "Emissões > CT-e" },
+        { "tipo": "novidade", "o_que": "Manutenção do relatório em página própria e edição do leiaute pelo SIG3 instalado no computador.", "onde": "Relatórios" },
+        { "tipo": "novidade", "o_que": "O instalador do servidor instala o Firebird 5 quando a máquina não tem banco, e prepara a base de um cliente novo que não usa o sistema antigo.", "onde": "Instalação" },
+        { "tipo": "melhoria", "o_que": "O sistema registra as lentidões com a causa provável, para o suporte investigar.", "onde": "Suporte" }
+      ]
+    },
+    {
       "numero": "1.2.9",
       "data": "2026-10-23",
       "mudancas": [
