@@ -13,6 +13,22 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.11",
+      "data": "2026-10-28",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Depois de finalizar a nota, a tela espera a autorização e libera o botão de imprimir o DANFE (ou a NFS-e, ou o documento interno). Com a configuração VoltaDfeEmitidas ligada, volta direto para DF-e Emitidas.", "onde": "Emissões > NF-e" },
+        { "tipo": "novidade", "o_que": "Imprimir a NFS-e autorizada, com o PDF lido da pasta do monitor de NFS-e.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "novidade", "o_que": "F7 na aba Itens mostra quanto cada condição de pagamento acrescenta de juros; os juros da condição valem também para condições com entrada.", "onde": "Vendas > Pedidos" },
+        { "tipo": "novidade", "o_que": "Consultar o CNPJ na Receita e a inscrição estadual na SEFAZ ao corrigir o cadastro do cliente; o que mudou fica em vermelho.", "onde": "Vendas e Emissões" },
+        { "tipo": "novidade", "o_que": "Centro de custo na inclusão de título a pagar e a receber.", "onde": "Financeiro" },
+        { "tipo": "melhoria", "o_que": "Controle de Comissões em árvore, com os vendedores agrupados e os totais de cada um.", "onde": "Financeiro > Comissões" },
+        { "tipo": "melhoria", "o_que": "MDF-e e CT-e em página única por etapa, como a NF-e; no MDF-e, produto predominante, NCM e percurso vêm preenchidos pelos documentos.", "onde": "Emissões > MDF-e e CT-e" },
+        { "tipo": "melhoria", "o_que": "Envio ao Domínio também da NFS-e; a conexão vai para a engrenagem e a lista de envios se atualiza sozinha.", "onde": "Integrações > Domínio" },
+        { "tipo": "melhoria", "o_que": "Nos relatórios do financeiro, os valores que descontam saem em vermelho.", "onde": "Relatórios" },
+        { "tipo": "correcao", "o_que": "O aviso de troco sem dinheiro ou cheque aparece ao lançar o meio de pagamento, não só no Confirmar.", "onde": "Emissões > NFC-e" }
+      ]
+    },
+    {
       "numero": "1.2.10",
       "data": "2026-10-27",
       "mudancas": [
