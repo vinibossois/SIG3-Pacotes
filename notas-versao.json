@@ -13,6 +13,24 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.12",
+      "data": "2026-10-29",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Relacionamento com clientes: aniversariantes, orçamentos sem retorno, clientes para reativar com WhatsApp e quem não quer receber contato.", "onde": "Vendas > Relacionamento" },
+        { "tipo": "novidade", "o_que": "Ficha 360° do cliente na aba Ficha comercial: compras, títulos e contatos num lugar só.", "onde": "Cadastros > Clientes" },
+        { "tipo": "novidade", "o_que": "Emissão de boleto do Sicoob pelo SIG3: emite junto com a autorização da nota, cancela junto com o cancelamento e avisa no sino.", "onde": "Emissões e Financeiro" },
+        { "tipo": "novidade", "o_que": "Inscrição estadual consultada direto na SEFAZ, com a consulta de terceiros só de reserva.", "onde": "Cadastros" },
+        { "tipo": "novidade", "o_que": "Aviso quando a tabela de cClassTrib está desatualizada; a Revisão Fiscal acusa cClassTrib fora do NCM.", "onde": "Fiscal" },
+        { "tipo": "melhoria", "o_que": "Pedido de Venda com a consulta separada da folha de inclusão e alteração, e consulta com grade de itens e painel de detalhes.", "onde": "Vendas > Pedidos" },
+        { "tipo": "melhoria", "o_que": "Notas de Entrada passam a se chamar DF-e Lançados.", "onde": "Entrada de DF-e" },
+        { "tipo": "melhoria", "o_que": "Relatórios de movimento do financeiro pela data de lançamento ou de conciliação.", "onde": "Relatórios" },
+        { "tipo": "correcao", "o_que": "Cancelar uma nota sem boleto mostrava \"Não foi possível cancelar\" depois do aviso de nota cancelada.", "onde": "Emissões > DF-e Emitidas" },
+        { "tipo": "correcao", "o_que": "Nota autorizada fora do prazo (código 120) ficava sem boleto.", "onde": "Financeiro" },
+        { "tipo": "correcao", "o_que": "O cadastro automático do fornecedor ao lançar a nota gravava reticências no nome, endereço e telefone cortados.", "onde": "Entrada de DF-e > Lançar NF-e" },
+        { "tipo": "correcao", "o_que": "Tela inicial em base sem a tabela de avisos resolvidos.", "onde": "Início" }
+      ]
+    },
+    {
       "numero": "1.2.11",
       "data": "2026-10-28",
       "mudancas": [
