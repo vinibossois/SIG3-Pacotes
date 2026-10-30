@@ -13,6 +13,24 @@
   ],
   "versoes": [
     {
+      "numero": "1.2.13",
+      "data": "2026-10-30",
+      "mudancas": [
+        { "tipo": "novidade", "o_que": "Reputação de clientes: selo ao lado do cliente no pedido, NFC-e, NF-e, OS e cadastro, aba Reputação no Relacionamento e exceções de campanhas.", "onde": "Vendas e Cadastros" },
+        { "tipo": "novidade", "o_que": "Curva ABC no Relacionamento com clientes e régua de cobrança também por e-mail, com prévia e registro do contato.", "onde": "Vendas > Relacionamento e Financeiro" },
+        { "tipo": "novidade", "o_que": "Rotinas do dia rodam sozinhas (movimentação de produtos, setores, curva ABC, crédito dos clientes) e aparecem no painel de Anomalias, com Rodar agora.", "onde": "Financeiro > Anomalias" },
+        { "tipo": "novidade", "o_que": "Consulta automática da Distribuição DF-e na Manifestação, ligada pela configuração.", "onde": "Entrada de DF-e > Manifestação" },
+        { "tipo": "correcao", "o_que": "O CT-e só recebe número no Finalizar; o Registrar (rascunho) não gasta mais número nem abre buraco na numeração.", "onde": "Emissões > CT-e" },
+        { "tipo": "correcao", "o_que": "Na Manifestação, tentativa recusada antes do envio não gasta mais o sequencial do evento.", "onde": "Entrada de DF-e > Manifestação" },
+        { "tipo": "correcao", "o_que": "DF-e Emitidas e Pedidos não trazem mais as notas e pedidos do dia seguinte ao fim do período.", "onde": "Emissões e Vendas" },
+        { "tipo": "correcao", "o_que": "A busca de títulos no Caixa e Bancos acha também os que estavam além dos 500 primeiros.", "onde": "Financeiro > Caixa e Bancos" },
+        { "tipo": "correcao", "o_que": "Busca na grade do relatório genérico não dá mais erro.", "onde": "Relatórios" },
+        { "tipo": "correcao", "o_que": "Busca do NCM com 3 ou mais letras voltou a funcionar.", "onde": "Cadastros > NCM" },
+        { "tipo": "correcao", "o_que": "Diferimento do IBS/CBS (CST 510/515) difere o imposto inteiro.", "onde": "Fiscal" },
+        { "tipo": "melhoria", "o_que": "Menu pessoal: apelido de tela igual na gaveta e nos favoritos, e item de grupo desativado não reaparece.", "onde": "Preferências > Meu menu" }
+      ]
+    },
+    {
       "numero": "1.2.12",
       "data": "2026-10-29",
       "mudancas": [
